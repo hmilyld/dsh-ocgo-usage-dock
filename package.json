@@ -1,6 +1,6 @@
 {
   "name": "@hmilyld/dsh-ocgo-usage-dock",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DSH Web 双面插件：在对话输入框下方常驻显示 OpenCode Go 用量条（5 小时 / 每周 / 每月三个窗口），并提供设置页修改配置",
   "type": "module",
   "main": "./lib/index.js",

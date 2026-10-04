@@ -91,6 +91,10 @@ check(
 	clientText.includes('createPortal') && clientText.includes('_ocgoDockRow') && clientText.includes("'data-ocgo-anchor': ''") && !clientText.includes('style.flexWrap')
 );
 check(
+	'客户端自动刷新：自续轮询链（每轮重读 ocko.poll() 的当前间隔；失败静默）',
+	clientText.includes('pollTimerRef') && clientText.includes('schedule()') && clientText.includes('ocko?.poll?.()') && clientText.includes('poll() {')
+);
+check(
 	'窗口 hover tooltip（resetsAt 重置时间→tipLabel + Tooltip 包裹 + 缺席回退原生 title）',
 	clientText.includes('resetsAt') && clientText.includes('tipLabel') && clientText.includes("require('@deepseek-ai/dsh-client-ui-primitives')") && clientText.includes("title: label")
 );
