@@ -1,3 +1,5 @@
+> **Development moved to [hmilyld/dsh-plugins](https://github.com/hmilyld/dsh-plugins). This repository is archived; install from npm (@hmilyld/dsh-beacon / @hmilyld/dsh-ocgo-usage-dock).**
+
 # @hmilyld/dsh-ocgo-usage-dock
 
 DSH（DeepSeek Harness）**Web 插件**：在对话输入框下方独立一行显示 OpenCode Go 用量条（5 小时滚动窗口 / 本周窗口 / 本月窗口），并提供本插件设置页。适配 **DSH 0.2.0-rc.2**。
